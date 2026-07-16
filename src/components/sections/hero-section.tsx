@@ -45,8 +45,9 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="mt-6 text-base sm:text-lg md:text-xl text-white/80 max-w-3xl mx-auto leading-relaxed"
         >
-          Sewa Lapangan Futsal Berkualitas di Surabaya untuk Latihan, Sparing,
-          Turnamen, Komunitas, Sekolah, Kampus, dan Perusahaan.
+          Supplier Lantai Olahraga di Surabaya — Futsal, Minisoccer, Padel,
+          Basket, dan Lainnya. Menerima Pemesanan & Pemasangan untuk Surabaya
+          dan Sekitarnya.
         </motion.p>
 
         <motion.div
@@ -61,7 +62,7 @@ export function HeroSection() {
             className="bg-primary hover:bg-primary/90 text-white text-base px-8 py-6 rounded-xl shadow-lg shadow-primary/30"
           >
             <Link href={WA_BOOKING_LINK} target="_blank" rel="noopener noreferrer">
-              Booking Sekarang
+              Konsultasi Gratis
             </Link>
           </Button>
           <Button

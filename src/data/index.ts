@@ -2,267 +2,267 @@ import type { Feature, Service, FAQ, GalleryItem, BreadcrumbItem } from "@/types
 
 export const features: Feature[] = [
   {
-    icon: "CheckCircle",
-    title: "Lapangan Nyaman",
+    icon: "Star",
+    title: "Rumput Sintetis Berkualitas",
     description:
-      "Lapangan futsal dengan rumput sintetis berkualitas tinggi yang nyaman dan aman untuk bermain.",
+      "Material rumput sintetis premium tahan lama untuk berbagai jenis lapangan olahraga.",
   },
   {
-    icon: "Lightbulb",
-    title: "Pencahayaan Terang",
+    icon: "Wrench",
+    title: "Pemasangan Profesional",
     description:
-      "Sistem pencahayaan LED modern yang terang merata untuk pengalaman bermain optimal di malam hari.",
-  },
-  {
-    icon: "Car",
-    title: "Area Parkir Luas",
-    description:
-      "Tersedia area parkir yang luas dan aman untuk kendaraan roda dua maupun roda empat.",
-  },
-  {
-    icon: "Moon",
-    title: "Musholla",
-    description:
-      "Fasilitas musholla bersih dan nyaman untuk ibadah sebelum dan sesudah bermain.",
-  },
-  {
-    icon: "ShowerHead",
-    title: "Toilet Bersih",
-    description:
-      "Toilet dan kamar mandi yang selalu terjaga kebersihannya untuk kenyamanan pengunjung.",
+      "Tim instalasi berpengalaman memastikan pemasangan rapi, presisi, dan sesuai standar.",
   },
   {
     icon: "BadgeDollarSign",
-    title: "Harga Terjangkau",
+    title: "Harga Competitor",
     description:
-      "Tarif sewa lapangan yang kompetitif dan terjangkau tanpa mengorbankan kualitas.",
-  },
-  {
-    icon: "CalendarCheck",
-    title: "Booking Mudah",
-    description:
-      "Sistem pemesanan yang mudah dan cepat melalui WhatsApp untuk kenyamanan Anda.",
-  },
-  {
-    icon: "Users",
-    title: "Cocok untuk Komunitas",
-    description:
-      "Tempat ideal untuk komunitas futsal berkumpul, berlatih, dan bertanding secara rutin.",
-  },
-  {
-    icon: "Trophy",
-    title: "Cocok untuk Turnamen",
-    description:
-      "Lapangan dengan standar turnamen, cocok untuk menyelenggarakan kompetisi futsal.",
+      "Harga langsung dari supplier tanpa perantara, lebih hemat untuk proyek Anda.",
   },
   {
     icon: "MapPin",
-    title: "Lokasi Strategis",
+    title: "Melayani Surabaya & Sekitarnya",
     description:
-      "Berlokasi di Surabaya Timur, mudah diakses dari berbagai penjuru kota Surabaya.",
+      "Menerima pemesanan dan pemasangan di area Surabaya, Sidoarjo, Gresik, dan sekitarnya.",
+  },
+  {
+    icon: "Layers",
+    title: "Berbagai Jenis Lantai",
+    description:
+      "Tersedia lantai untuk futsal, minisoccer, padel, basket, badminton, dan olahraga lainnya.",
+  },
+  {
+    icon: "MessageCircle",
+    title: "Konsultasi Gratis",
+    description:
+      "Tim kami siap membantu konsultasi pemilihan material yang tepat sesuai kebutuhan dan anggaran.",
+  },
+  {
+    icon: "ShieldCheck",
+    title: "Garansi Pemasangan",
+    description:
+      "Setiap proyek pemasangan mendapat garansi untuk menjamin kepuasan pelanggan.",
+  },
+  {
+    icon: "CloudSun",
+    title: "Material Tahan Cuaca",
+    description:
+      "Produk lantai olahraga kami tahan terhadap cuaca tropis Indonesia, awet dan tidak mudah rusak.",
+  },
+  {
+    icon: "Award",
+    title: "Standar Internasional",
+    description:
+      "Material dan pemasangan mengikuti standar kualitas internasional untuk lapangan olahraga.",
+  },
+  {
+    icon: "Truck",
+    title: "Pengiriman Cepat",
+    description:
+      "Proses pengiriman material cepat dan tepat waktu ke lokasi proyek Anda.",
   },
 ];
 
 export const services: Service[] = [
   {
     icon: "CircleDot",
-    title: "Sewa Lapangan Futsal",
+    title: "Lantai Futsal",
     description:
-      "Sewa lapangan futsal berkualitas dengan rumput sintetis terbaik untuk berbagai kebutuhan olahraga Anda.",
-  },
-  {
-    icon: "CalendarDays",
-    title: "Booking Lapangan Harian",
-    description:
-      "Pemesanan lapangan harian yang fleksibel sesuai jadwal Anda, tersedia pagi hingga malam hari.",
-  },
-  {
-    icon: "Swords",
-    title: "Sparing Partner",
-    description:
-      "Temukan tim sparing partner untuk latihan tanding dan meningkatkan kemampuan bermain tim Anda.",
-  },
-  {
-    icon: "Trophy",
-    title: "Turnamen Futsal",
-    description:
-      "Selenggarakan turnamen futsal dengan fasilitas lapangan dan pencahayaan standar kompetisi.",
-  },
-  {
-    icon: "GraduationCap",
-    title: "Latihan Sekolah",
-    description:
-      "Program latihan futsal untuk sekolah dengan jadwal yang dapat disesuaikan dengan kegiatan akademik.",
-  },
-  {
-    icon: "School",
-    title: "Latihan Kampus",
-    description:
-      "Fasilitas latihan untuk unit kegiatan mahasiswa futsal kampus di seluruh Surabaya.",
-  },
-  {
-    icon: "Building2",
-    title: "Event Perusahaan",
-    description:
-      "Lapangan futsal ideal untuk kegiatan olahraga perusahaan, team building, dan gathering.",
+      "Jual dan pasang rumput sintetis futsal berkualitas tinggi untuk lapangan indoor maupun outdoor dengan berbagai pilihan ketebalan.",
   },
   {
     icon: "Users",
-    title: "Komunitas Futsal",
+    title: "Lantai Minisoccer",
     description:
-      "Tempat berkumpul dan berlatih bagi komunitas futsal dengan semangat sportivitas tinggi.",
+      "Supplier lantai minisoccer dengan material empuk dan aman, cocok untuk area bermain anak dan dewasa.",
+  },
+  {
+    icon: "Swords",
+    title: "Lantai Padel",
+    description:
+      "Pemasangan lantai padel standar profesional dengan permukaan yang sesuai regulasi federasi.",
+  },
+  {
+    icon: "Trophy",
+    title: "Lantai Basket",
+    description:
+      "Lantai olahraga untuk lapangan basket indoor dan outdoor dengan bahan anti-slip dan daya tahan tinggi.",
+  },
+  {
+    icon: "Feather",
+    title: "Lantai Badminton",
+    description:
+      "Penyedia lantai badminton dengan permukaan anti licin untuk performa permainan optimal.",
+  },
+  {
+    icon: "Hammer",
+    title: "Renovasi Lapangan",
+    description:
+      "Jasa renovasi dan perbaikan lapangan olahraga lama menjadi baru dengan material terkini.",
+  },
+  {
+    icon: "MessageSquare",
+    title: "Konsultasi & Desain",
+    description:
+      "Layanan konsultasi gratis dan desain lapangan sesuai kebutuhan, anggaran, dan lahan yang tersedia.",
+  },
+  {
+    icon: "Package",
+    title: "Supply Material",
+    description:
+      "Menyediakan material lantai olahraga saja tanpa jasa pemasangan untuk proyek mandiri.",
   },
 ];
 
 export const faqs: FAQ[] = [
   {
-    question: "Berapa harga sewa lapangan futsal di H2 Futsal Surabaya?",
+    question: "Apa saja jenis lantai olahraga yang disediakan H2 Surabaya?",
     answer:
-      "Harga sewa lapangan futsal di H2 Futsal Surabaya sangat terjangkau dengan tarif mulai dari Rp80.000 per jam. Untuk informasi harga terbaru dan promo, silakan hubungi kami melalui WhatsApp di nomor 0822-4426-9222.",
+      "H2 Surabaya menyediakan berbagai jenis lantai olahraga meliputi rumput sintetis futsal, lantai minisoccer, lantai padel, lantai basket, lantai badminton, dan berbagai lantai olahraga lainnya sesuai kebutuhan proyek Anda.",
   },
   {
-    question: "Bagaimana cara booking lapangan futsal di H2 Futsal?",
+    question: "Berapa harga lantai futsal per meter persegi?",
     answer:
-      "Anda dapat melakukan booking lapangan futsal dengan mudah melalui WhatsApp di nomor 0822-4426-9222. Cukup informasikan tanggal, jam, dan durasi yang diinginkan, tim kami akan segera mengkonfirmasi ketersediaan lapangan.",
+      "Harga lantai futsal bervariasi tergantung jenis material, ketebalan, dan spesifikasi yang dipilih. Untuk mendapatkan penawaran harga terbaik, silakan hubungi kami melalui WhatsApp di 0822-4426-9222 untuk konsultasi gratis.",
   },
   {
-    question: "Berapa kapasitas pemain di satu lapangan futsal H2?",
+    question: "Apakah H2 menerima pemasangan di luar Surabaya?",
     answer:
-      "Satu lapangan futsal di H2 Futsal Surabaya berstandar dengan kapasitas 10 pemain (5 vs 5) untuk permainan reguler. Lapangan juga dapat menampung lebih banyak pemain untuk sesi latihan atau pemanasan.",
+      "Ya, kami menerima pemesanan dan pemasangan lantai olahraga di Surabaya serta kota-kota sekitarnya seperti Sidoarjo, Gresik, Lamongan, dan wilayah Jawa Timur lainnya. Hubungi kami untuk informasi jangkauan area.",
   },
   {
-    question: "Apa saja fasilitas yang tersedia di H2 Futsal Surabaya?",
+    question: "Berapa lama proses pemasangan lantai futsal?",
     answer:
-      "H2 Futsal Surabaya menyediakan berbagai fasilitas lengkap termasuk lapangan dengan rumput sintetis berkualitas, pencahayaan LED terang, area parkir luas, musholla, toilet bersih, dan area tunggu yang nyaman.",
+      "Durasi pemasangan tergantung pada luas lapangan dan jenis material yang dipilih. Untuk satu lapangan futsal standar, pemasangan biasanya memakan waktu 3-7 hari kerja.",
   },
   {
-    question: "Jam operasional H2 Futsal Surabaya?",
+    question: "Apakah tersedia garansi untuk pemasangan?",
     answer:
-      "H2 Futsal Surabaya beroperasi setiap hari dari pukul 08:00 hingga 23:00 WIB. Anda dapat melakukan booking untuk sesi pagi, siang, maupun malam hari sesuai ketersediaan lapangan.",
+      "Ya, setiap proyek pemasangan lantai olahraga dari H2 Surabaya mendapat garansi. Detail garansi akan dijelaskan saat proses konsultasi dan penawaran harga.",
   },
   {
-    question: "Apakah H2 Futsal menyediakan sewa sepatu atau bola?",
+    question: "Apakah bisa hanya membeli material tanpa jasa pemasangan?",
     answer:
-      "Untuk informasi mengenai penyewaan peralatan seperti sepatu futsal dan bola, silakan konfirmasi langsung melalui WhatsApp kami. Kami akan berusaha membantu kebutuhan Anda sebaik mungkin.",
+      "Tentu. Kami juga menyediakan layanan supply material saja untuk proyek mandiri. Anda bisa membeli rumput sintetis, interlock, atau material lainnya tanpa jasa pemasangan.",
   },
   {
-    question: "Apakah bisa menyewa lapangan untuk event atau turnamen?",
+    question: "Bagaimana cara memesan lantai olahraga dari H2 Surabaya?",
     answer:
-      "Tentu! H2 Futsal Surabaya menerima penyewaan lapangan untuk berbagai event termasuk turnamen futsal, pertandingan persahabatan, keolahragaan perusahaan, dan acara komunitas. Hubungi kami untuk diskusi lebih lanjut mengenai kebutuhan event Anda.",
+      "Cara pemesanan sangat mudah: hubungi kami via WhatsApp di 0822-4426-9222, konsultasikan kebutuhan Anda, kami akan melakukan survei lokasi jika diperlukan, kemudian memberikan penawaran harga.",
   },
   {
-    question: "Di mana lokasi H2 Futsal Surabaya?",
+    question: "Apakah H2 menyediakan jasa renovasi lapangan lama?",
     answer:
-      "H2 Futsal Surabaya berlokasi di Jl. Cumpat Gg. 5 No. 2, Kelurahan Kedung Cowek, Kecamatan Bulak, Kenjeran, Surabaya Timur, Jawa Timur 60125. Lokasi kami mudah diakses dan berdekatan dengan berbagai kawasan di Surabaya Timur.",
+      "Ya, kami menerima jasa renovasi lapangan olahraga lama. Tim kami akan mengevaluasi kondisi lapangan dan memberikan solusi renovasi dengan material terbaik sesuai anggaran.",
   },
   {
-    question: "Apakah ada diskon untuk booking rutin atau jangka panjang?",
+    question: "Apakah material lantai olahraga tahan cuaca Indonesia?",
     answer:
-      "Ya, H2 Futsal Surabaya memberikan harga spesial untuk booking rutin mingguan atau bulanan. Kami juga memiliki paket khusus untuk komunitas, sekolah, kampus, dan perusahaan. Hubungi kami untuk mendapatkan penawaran terbaik.",
+      "Semua material yang kami sediakan telah dipilih untuk ketahanannya terhadap cuaca tropis Indonesia. Material kami tahan terhadap hujan, panas matahari, dan kelembaban tinggi.",
   },
   {
-    question: "Bagaimana kondisi rumput lapangan di H2 Futsal Surabaya?",
+    question: "Di mana lokasi H2 Surabaya?",
     answer:
-      "Lapangan H2 Futsal Surabaya menggunakan rumput sintetis berkualitas tinggi yang terawat dengan baik. Permukaan lapangan rata, empuk, dan aman untuk bermain, memberikan pengalaman bermain futsal yang nyaman dan profesional.",
+      "H2 Surabaya berlokasi di Jl. Cumpat Gg. 5 No. 2, Kelurahan Kedung Cowek, Kecamatan Bulak, Kenjeran, Surabaya Timur, Jawa Timur 60125.",
   },
   {
-    question: "Apakah tersedia air minum dan kamar ganti di H2 Futsal?",
+    question: "Apakah ada diskon untuk pemesanan dalam jumlah besar?",
     answer:
-      "H2 Futsal Surabaya menyediakan fasilitas pendukung yang lengkap termasuk akses air bersih dan toilet yang terjaga kebersihannya. Kami berkomitmen memberikan kenyamanan maksimal bagi seluruh pengunjung.",
+      "Ya, kami memberikan harga spesial untuk pemesanan dalam jumlah besar atau proyek multi-lapangan. Hubungi kami untuk mendapatkan penawaran terbaik sesuai kebutuhan proyek Anda.",
   },
   {
-    question: "Bisakah membatalkan booking yang sudah dikonfirmasi?",
+    question: "Apakah H2 menyediakan gratis konsultasi sebelum pemesanan?",
     answer:
-      "Pembatalan booking dapat dilakukan dengan menghubungi tim kami melalui WhatsApp minimal 2 jam sebelum jadwal yang telah ditentukan. Kebijakan pembatalan berlaku untuk menjaga kenyamanan seluruh pengguna lapangan.",
+      "Ya, kami menyediakan layanan konsultasi gratis untuk membantu Anda memilih jenis lantai olahraga yang tepat sesuai kebutuhan, anggaran, dan kondisi lahan.",
   },
 ];
 
 export const galleryCategories = [
   { id: "semua", label: "Semua" },
-  { id: "lapangan", label: "Lapangan" },
-  { id: "pertandingan", label: "Pertandingan" },
-  { id: "event", label: "Event" },
-  { id: "komunitas", label: "Komunitas" },
+  { id: "lantai-futsal", label: "Lantai Futsal" },
+  { id: "minisoccer", label: "Minisoccer" },
+  { id: "padel", label: "Padel" },
+  { id: "pemasangan", label: "Pemasangan" },
   { id: "fasilitas", label: "Fasilitas" },
 ] as const;
 
 export const galleryItems: GalleryItem[] = [
   {
-    id: "lapangan-1",
+    id: "lantai-futsal-1",
     src: "/images/gallery/galeri-1.jpg",
-    alt: "Lapangan futsal H2 Surabaya dengan pencahayaan terang",
-    category: "lapangan",
+    alt: "Pemasangan lantai futsal oleh tim H2 Surabaya",
+    category: "lantai-futsal",
     width: 1200,
     height: 1600,
   },
   {
-    id: "lapangan-2",
+    id: "lantai-futsal-2",
     src: "/images/gallery/galeri-2.jpg",
-    alt: "Lapangan futsal H2 Surabaya dari sudut luas",
-    category: "lapangan",
+    alt: "Lantai futsal rumput sintetis berkualitas tinggi",
+    category: "lantai-futsal",
     width: 1600,
     height: 777,
   },
   {
-    id: "lapangan-3",
+    id: "lantai-futsal-3",
     src: "/images/gallery/galeri-3.jpg",
-    alt: "Detail lapangan futsal H2 Surabaya",
-    category: "lapangan",
+    alt: "Detail pemasangan rumput sintetis lapangan futsal",
+    category: "lantai-futsal",
     width: 927,
     height: 1280,
   },
   {
-    id: "pertandingan-1",
+    id: "minisoccer-1",
     src: "/images/gallery/galeri-4.jpg",
-    alt: "Pertandingan futsal seru di lapangan H2 Surabaya",
-    category: "pertandingan",
+    alt: "Lapangan minisoccer dengan lantai olahraga dari H2 Surabaya",
+    category: "minisoccer",
     width: 1280,
     height: 720,
   },
   {
-    id: "pertandingan-2",
+    id: "minisoccer-2",
     src: "/images/gallery/galeri-5.jpg",
-    alt: "Aksi pemain futsal saat pertandingan di H2 Surabaya",
-    category: "pertandingan",
+    alt: "Proyek pemasangan lantai minisoccer di Surabaya",
+    category: "minisoccer",
     width: 1600,
     height: 777,
   },
   {
-    id: "event-1",
+    id: "padel-1",
     src: "/images/gallery/galeri-6.jpg",
-    alt: "Event turnamen futsal di H2 Futsal Surabaya",
-    category: "event",
+    alt: "Lantai lapangan padel standar profesional",
+    category: "padel",
     width: 1200,
     height: 1600,
   },
   {
-    id: "event-2",
+    id: "padel-2",
     src: "/images/gallery/galeri-7.jpg",
-    alt: "Kegiatan event futsal di H2 Surabaya",
-    category: "event",
+    alt: "Pemasangan lantai padel di area Surabaya timur",
+    category: "padel",
     width: 1200,
     height: 1600,
   },
   {
-    id: "komunitas-1",
+    id: "pemasangan-1",
     src: "/images/gallery/galeri-8.jpg",
-    alt: "Komunitas futsal berlatih di H2 Futsal Surabaya",
-    category: "komunitas",
+    alt: "Proses pemasangan lantai olahraga oleh tim profesional",
+    category: "pemasangan",
     width: 1600,
     height: 777,
   },
   {
-    id: "komunitas-2",
+    id: "pemasangan-2",
     src: "/images/gallery/galeri-9.jpg",
-    alt: "Foto bersama komunitas futsal di H2 Surabaya",
-    category: "komunitas",
+    alt: "Dokumentasi pemasangan lantai lapangan olahraga H2",
+    category: "pemasangan",
     width: 828,
     height: 410,
   },
   {
     id: "fasilitas-1",
     src: "/images/gallery/galeri-10.jpg",
-    alt: "Fasilitas lengkap H2 Futsal Surabaya",
+    alt: "Fasilitas gudang dan material lantai olahraga H2 Surabaya",
     category: "fasilitas",
     width: 1200,
     height: 1600,

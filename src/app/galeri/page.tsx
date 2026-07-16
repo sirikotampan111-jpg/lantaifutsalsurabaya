@@ -6,14 +6,14 @@ import { PageHeader } from "@/components/page-header";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = createMetadata({
-  title: "Galeri H2 Futsal Surabaya - Foto Lapangan & Kegiatan Futsal",
+  title: "Galeri H2 Futsal Surabaya - Portfolio Lantai Olahraga Surabaya",
   description:
-    "Galeri foto H2 Futsal Surabaya. Lihat lapangan futsal, pertandingan, event, komunitas, dan fasilitas kami.",
+    "Galeri foto H2 Futsal Surabaya. Lihat hasil pemasangan lantai futsal, minisoccer, padel, dan dokumentasi proyek lantai olahraga kami.",
   path: "/galeri",
   keywords: [
     "Galeri H2 Futsal",
-    "Foto Lapangan Futsal Surabaya",
-    "Galeri Futsal Kenjeran",
+    "Portfolio Lantai Futsal Surabaya",
+    "Galeri Lantai Olahraga Kenjeran",
   ],
 });
 
@@ -59,7 +59,7 @@ export default function GaleriPage() {
       <main className="flex-1">
         <PageHeader
           title="Galeri"
-          description="Dokumentasi kegiatan dan fasilitas H2 Futsal Surabaya"
+          description="Dokumentasi proyek dan pemasangan lantai olahraga H2 Surabaya"
           breadcrumbs={[
             { name: "Home", url: "/" },
             { name: "Galeri", url: "/galeri" },

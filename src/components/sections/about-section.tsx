@@ -6,11 +6,11 @@ import { Eye, Target, CheckCircle2 } from "lucide-react";
 import { SectionTitle } from "@/components/section-title";
 
 const misiItems = [
-  "Memberikan pelayanan terbaik dengan respons cepat dan ramah kepada seluruh pelanggan.",
-  "Menyediakan lapangan futsal berkualitas tinggi dengan fasilitas modern dan terawat.",
-  "Menawarkan harga terjangkau tanpa mengorbankan kualitas layanan dan fasilitas.",
-  "Menjaga kebersihan dan kenyamanan lingkungan lapangan secara konsisten.",
-  "Mengutamakan kepuasan pelanggan dalam setiap interaksi dan layanan yang diberikan.",
+  "Menyediakan material lantai olahraga berkualitas tinggi dengan harga yang kompetitif.",
+  "Memberikan layanan pemasangan profesional dan tepat waktu.",
+  "Memberikan konsultasi terbaik untuk membantu pelanggan memilih solusi yang tepat.",
+  "Menjangkau lebih banyak area di Surabaya dan sekitarnya.",
+  "Mengutamakan kepuasan pelanggan dengan garansi dan layanan purna jual.",
 ];
 
 export function AboutSection() {
@@ -33,11 +33,12 @@ export function AboutSection() {
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <p className="text-foreground/80 leading-relaxed text-base md:text-lg">
-              H2 Futsal Surabaya adalah penyedia lapangan futsal berkualitas yang
-              berlokasi strategis di kawasan Kenjeran, Surabaya Timur. Dengan
-              komitmen memberikan pelayanan terbaik, kami menyediakan lapangan
-              futsal yang nyaman, bersih, dan dilengkapi fasilitas modern untuk
-              memenuhi berbagai kebutuhan olahraga Anda.
+              H2 Futsal Surabaya adalah supplier lantai olahraga terpercaya yang
+              berlokasi strategis di kawasan Kenjeran, Surabaya Timur. Kami
+              menyediakan dan memasang berbagai jenis lantai olahraga berkualitas
+              tinggi untuk futsal, minisoccer, padel, basket, badminton, dan
+              olahraga lainnya. Dengan pengalaman dan komitmen terhadap kualitas,
+              kami siap membantu mewujudkan lapangan olahraga impian Anda.
             </p>
           </motion.div>
 
@@ -57,7 +58,7 @@ export function AboutSection() {
                 <h3 className="text-lg font-semibold text-foreground">Visi</h3>
               </div>
               <p className="text-muted-foreground leading-relaxed">
-                Menjadi tempat penyewaan lapangan futsal terbaik di Surabaya.
+                Menjadi supplier lantai olahraga terpercaya dan terdepan di Surabaya dan Jawa Timur.
               </p>
             </div>
 

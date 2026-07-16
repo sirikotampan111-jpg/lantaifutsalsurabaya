@@ -3,32 +3,32 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import {
-  CheckCircle,
-  Lightbulb,
-  Car,
-  Moon,
-  ShowerHead,
+  Star,
+  Wrench,
   BadgeDollarSign,
-  CalendarCheck,
-  Users,
-  Trophy,
   MapPin,
+  Layers,
+  MessageCircle,
+  ShieldCheck,
+  CloudSun,
+  Award,
+  Truck,
   type LucideIcon,
 } from "lucide-react";
 import { features } from "@/data/index";
 import { SectionTitle } from "@/components/section-title";
 
 const iconMap: Record<string, LucideIcon> = {
-  CheckCircle,
-  Lightbulb,
-  Car,
-  Moon,
-  ShowerHead,
+  Star,
+  Wrench,
   BadgeDollarSign,
-  CalendarCheck,
-  Users,
-  Trophy,
   MapPin,
+  Layers,
+  MessageCircle,
+  ShieldCheck,
+  CloudSun,
+  Award,
+  Truck,
 };
 
 const containerVariants = {
@@ -70,7 +70,7 @@ export function FeaturesSection() {
           className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6"
         >
           {features.map((feature) => {
-            const Icon = iconMap[feature.icon] || CheckCircle;
+            const Icon = iconMap[feature.icon] || Star;
             return (
               <motion.div
                 key={feature.title}

@@ -4,13 +4,13 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import {
   CircleDot,
-  CalendarDays,
+  Users,
   Swords,
   Trophy,
-  GraduationCap,
-  School,
-  Building2,
-  Users,
+  Feather,
+  Hammer,
+  MessageSquare,
+  Package,
   type LucideIcon,
 } from "lucide-react";
 import { services } from "@/data/index";
@@ -18,13 +18,13 @@ import { SectionTitle } from "@/components/section-title";
 
 const iconMap: Record<string, LucideIcon> = {
   CircleDot,
-  CalendarDays,
+  Users,
   Swords,
   Trophy,
-  GraduationCap,
-  School,
-  Building2,
-  Users,
+  Feather,
+  Hammer,
+  MessageSquare,
+  Package,
 };
 
 const containerVariants = {
@@ -55,7 +55,7 @@ export function ServicesSection() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionTitle
           title="Layanan Kami"
-          subtitle="Berbagai layanan sewa lapangan futsal untuk kebutuhan Anda"
+          subtitle="Layanan jual dan pasang lantai olahraga untuk berbagai kebutuhan"
         />
 
         <motion.div

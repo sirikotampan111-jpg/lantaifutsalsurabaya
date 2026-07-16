@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: BUSINESS.name,
     short_name: "H2 Futsal",
-    description: `Sewa Lapangan Futsal Berkualitas di Surabaya`,
+    description: `Supplier Lantai Olahraga di Surabaya`,
     start_url: "/",
     display: "standalone",
     background_color: "#0a0a0a",

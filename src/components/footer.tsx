@@ -18,8 +18,9 @@ export function Footer() {
               </span>
             </div>
             <p className="text-sm text-white/60 leading-relaxed">
-              Penyedia lapangan futsal berkualitas di Surabaya Timur. Nyaman,
-              bersih, dan dilengkapi fasilitas modern.
+              Supplier lantai olahraga terpercaya di Surabaya. Menyediakan dan
+              memasang lantai futsal, minisoccer, padel, basket, dan olahraga
+              lainnya.
             </p>
           </div>
 

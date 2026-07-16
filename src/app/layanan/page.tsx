@@ -6,15 +6,15 @@ import { PageHeader } from "@/components/page-header";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = createMetadata({
-  title: "Layanan H2 Futsal Surabaya - Sewa Lapangan & Layanan Futsal",
+  title: "Layanan H2 Futsal Surabaya - Jual & Pasang Lantai Olahraga Surabaya",
   description:
-    "Layanan lengkap H2 Futsal Surabaya: sewa lapangan futsal, booking harian, sparing partner, turnamen, latihan sekolah & kampus, event perusahaan.",
+    "Layanan lengkap H2 Futsal Surabaya: jual dan pasang lantai futsal, lantai minisoccer, lantai padel, lantai basket, renovasi lapangan, konsultasi & desain, dan supply material.",
   path: "/layanan",
   keywords: [
     "Layanan H2 Futsal",
-    "Sewa Lapangan Futsal Surabaya",
-    "Booking Futsal Surabaya",
-    "Turnamen Futsal Surabaya",
+    "Jual Lantai Futsal Surabaya",
+    "Pemasangan Lantai Futsal Surabaya",
+    "Lantai Padel Surabaya",
   ],
 });
 
@@ -60,7 +60,7 @@ export default function LayananPage() {
       <main className="flex-1">
         <PageHeader
           title="Layanan Kami"
-          description="Berbagai layanan futsal untuk kebutuhan olahraga Anda"
+          description="Layanan jual dan pasang lantai olahraga untuk kebutuhan Anda"
           breadcrumbs={[
             { name: "Home", url: "/" },
             { name: "Layanan", url: "/layanan" },

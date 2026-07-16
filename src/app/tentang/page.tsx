@@ -6,11 +6,11 @@ import { PageHeader } from "@/components/page-header";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = createMetadata({
-  title: "Tentang H2 Futsal Surabaya - Lapangan Futsal Berkualitas",
+  title: "Tentang H2 Futsal Surabaya - Supplier Lantai Olahraga Terpercaya",
   description:
-    "Mengenal lebih dekat H2 Futsal Surabaya. Penyedia lapangan futsal berkualitas di Surabaya Timur dengan fasilitas lengkap dan harga terjangkau.",
+    "Mengenal lebih dekat H2 Futsal Surabaya. Supplier lantai olahraga terpercaya di Surabaya Timur yang menyediakan dan memasang lantai futsal, minisoccer, padel, basket, dan lainnya.",
   path: "/tentang",
-  keywords: ["H2 Futsal Surabaya", "Tentang H2 Futsal", "Lapangan Futsal Kenjeran"],
+  keywords: ["H2 Futsal Surabaya", "Tentang H2 Futsal", "Supplier Lantai Olahraga Kenjeran"],
 });
 
 const AboutSection = dynamic(

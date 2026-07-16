@@ -3,21 +3,20 @@ import { SITE_URL, BUSINESS } from "./constants";
 
 const defaultKeywords = [
   "H2 Futsal Surabaya",
-  "Futsal Surabaya",
-  "Lapangan Futsal Surabaya",
-  "Sewa Lapangan Futsal Surabaya",
-  "Booking Lapangan Futsal Surabaya",
-  "Lapangan Futsal Bulak",
-  "Lapangan Futsal Kedung Cowek",
-  "Lapangan Futsal Kenjeran",
-  "Futsal Surabaya Timur",
-  "Tempat Futsal Surabaya",
-  "Lapangan Futsal Murah Surabaya",
-  "Sewa Lapangan Futsal Bulak",
-  "Sewa Lapangan Futsal Kenjeran",
-  "Sewa Lapangan Futsal Surabaya Timur",
-  "Tempat Main Futsal Surabaya",
-  "Lapangan Futsal Terdekat Surabaya",
+  "Supplier Lantai Futsal Surabaya",
+  "Jual Lantai Futsal Surabaya",
+  "Lantai Futsal Murah Surabaya",
+  "Pemasangan Lantai Futsal Surabaya",
+  "Supplier Lantai Olahraga Surabaya",
+  "Lantai Minisoccer Surabaya",
+  "Lantai Padel Surabaya",
+  "Lantai Basket Surabaya",
+  "Kontraktor Lapangan Futsal Surabaya",
+  "Lantai Futsal Kenjeran",
+  "Lantai Futsal Bulak",
+  "Lantai Olahraga Surabaya Timur",
+  "Jual Rumput Sintetis Surabaya",
+  "Lantai Lapangan Terdekat Surabaya",
 ];
 
 export function createMetadata(overrides?: {
@@ -27,10 +26,10 @@ export function createMetadata(overrides?: {
   keywords?: string[];
   image?: string;
 }): Metadata {
-  const title = overrides?.title ?? "H2 Futsal Surabaya - Sewa Lapangan Futsal Berkualitas";
+  const title = overrides?.title ?? "H2 Futsal Surabaya - Supplier Lantai Olahraga Terpercaya";
   const description =
     overrides?.description ??
-    "H2 Futsal Surabaya menyediakan sewa lapangan futsal berkualitas di Kenjeran, Surabaya Timur. Lapangan nyaman, pencahayaan terang, harga terjangkau. Booking mudah via WhatsApp.";
+    "H2 Futsal Surabaya adalah supplier lantai olahraga terpercaya di Surabaya. Menyediakan dan memasang lantai futsal, minisoccer, padel, basket, dan lantai olahraga lainnya. Konsultasi gratis via WhatsApp.";
   const path = overrides?.path ?? "";
   const url = `${SITE_URL}${path}`;
   const keywords = overrides?.keywords
