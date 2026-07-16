@@ -11,7 +11,7 @@ export function HeroSection() {
   return (
     <section
       id="beranda"
-      className="relative flex min-h-screen items-center justify-center overflow-hidden scroll-mt-20"
+      className="relative flex min-h-screen items-center justify-center overflow-hidden"
     >
       {/* Background Image */}
       <div className="absolute inset-0">
@@ -84,12 +84,14 @@ export function HeroSection() {
         transition={{ delay: 1.2, duration: 0.8 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10"
       >
-        <motion.div
-          animate={{ y: [0, 8, 0] }}
-          transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-        >
-          <ChevronDown className="h-8 w-8 text-white/60" />
-        </motion.div>
+        <Link href="/tentang" aria-label="Lihat Tentang Kami">
+          <motion.div
+            animate={{ y: [0, 8, 0] }}
+            transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+          >
+            <ChevronDown className="h-8 w-8 text-white/60" />
+          </motion.div>
+        </Link>
       </motion.div>
     </section>
   );

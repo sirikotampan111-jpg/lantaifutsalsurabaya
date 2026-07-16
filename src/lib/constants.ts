@@ -19,11 +19,11 @@ export const BUSINESS: BusinessInfo = {
 };
 
 export const NAV_LINKS: NavLink[] = [
-  { href: "#beranda", label: "Home" },
-  { href: "#tentang", label: "Tentang" },
-  { href: "#layanan", label: "Layanan" },
-  { href: "#galeri", label: "Galeri" },
-  { href: "#kontak", label: "Kontak" },
+  { href: "/", label: "Home" },
+  { href: "/tentang", label: "Tentang" },
+  { href: "/layanan", label: "Layanan" },
+  { href: "/galeri", label: "Galeri" },
+  { href: "/kontak", label: "Kontak" },
 ];
 
 export const WA_LINK = `https://wa.me/${BUSINESS.whatsapp}`;

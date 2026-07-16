@@ -42,7 +42,7 @@ export function generateJsonLd() {
     },
     priceRange: "Rp80.000 - Rp150.000",
     image: `${SITE_URL}/images/og-image.jpg`,
-    logo: `${SITE_URL}/logo.svg`,
+    logo: `${SITE_URL}/logo.png`,
     areaServed: {
       "@type": "City",
       name: "Surabaya",
@@ -67,7 +67,7 @@ export function generateJsonLd() {
     },
     telephone: BUSINESS.phone,
     image: `${SITE_URL}/images/og-image.jpg`,
-    logo: `${SITE_URL}/logo.svg`,
+    logo: `${SITE_URL}/logo.png`,
   };
 
   const organization = {
@@ -76,7 +76,7 @@ export function generateJsonLd() {
     "@id": BASE_ID,
     name: BUSINESS.name,
     url: SITE_URL,
-    logo: `${SITE_URL}/logo.svg`,
+    logo: `${SITE_URL}/logo.png`,
     description:
       "Penyedia layanan sewa lapangan futsal berkualitas di Surabaya Timur. Melayani latihan, sparing, turnamen, dan event perusahaan.",
     address: {
@@ -131,7 +131,7 @@ export function generateJsonLd() {
     name: "Kontak H2 Futsal Surabaya",
     description:
       "Hubungi H2 Futsal Surabaya untuk booking lapangan futsal, informasi harga, dan pertanyaan lainnya.",
-    url: `${SITE_URL}/#kontak`,
+    url: `${SITE_URL}/kontak`,
     isPartOf: { "@id": `${SITE_URL}/#website` },
     mainEntity: {
       "@type": "LocalBusiness",
@@ -156,25 +156,25 @@ export function generateJsonLd() {
         "@type": "ListItem",
         position: 2,
         name: "Tentang",
-        item: `${SITE_URL}/#tentang`,
+        item: `${SITE_URL}/tentang`,
       },
       {
         "@type": "ListItem",
         position: 3,
         name: "Layanan",
-        item: `${SITE_URL}/#layanan`,
+        item: `${SITE_URL}/layanan`,
       },
       {
         "@type": "ListItem",
         position: 4,
         name: "Galeri",
-        item: `${SITE_URL}/#galeri`,
+        item: `${SITE_URL}/galeri`,
       },
       {
         "@type": "ListItem",
         position: 5,
         name: "Kontak",
-        item: `${SITE_URL}/#kontak`,
+        item: `${SITE_URL}/kontak`,
       },
     ],
   };

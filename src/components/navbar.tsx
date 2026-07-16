@@ -3,8 +3,9 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -18,6 +19,7 @@ import { NAV_LINKS, WA_BOOKING_LINK } from "@/lib/constants";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -40,8 +42,8 @@ export function Navbar() {
     >
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <Link href="#beranda" className="flex items-center gap-2">
-          <Image src="/logo.svg" alt="H2 Futsal" width={40} height={40} />
+        <Link href="/" className="flex items-center gap-2">
+          <Image src="/logo.png" alt="H2 Futsal" width={40} height={40} />
           <span className="text-lg font-bold text-white">
             H2 <span className="gradient-text">Futsal</span>
           </span>
@@ -49,15 +51,20 @@ export function Navbar() {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-1">
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="px-3 py-2 text-sm font-medium text-white/80 transition-colors hover:text-white rounded-md hover:bg-white/10"
-            >
-              {link.label}
-            </Link>
-          ))}
+          {NAV_LINKS.map((link) => {
+            const isActive = pathname === link.href;
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`px-3 py-2 text-sm font-medium transition-colors rounded-md hover:bg-white/10 ${
+                  isActive ? "text-primary" : "text-white/80 hover:text-white"
+                }`}
+              >
+                {link.label}
+              </Link>
+            );
+          })}
           <Button asChild className="ml-3 bg-primary hover:bg-primary/90 text-white">
             <Link href={WA_BOOKING_LINK} target="_blank" rel="noopener noreferrer">
               Booking Sekarang
@@ -76,21 +83,28 @@ export function Navbar() {
           <SheetContent side="right" className="bg-futsal-black border-white/10 w-72">
             <SheetHeader>
               <SheetTitle className="text-white flex items-center gap-2">
-                <Image src="/logo.svg" alt="H2 Futsal" width={32} height={32} />
+                <Image src="/logo.png" alt="H2 Futsal" width={32} height={32} />
                 H2 Futsal
               </SheetTitle>
             </SheetHeader>
             <div className="flex flex-col gap-1 mt-4">
-              {NAV_LINKS.map((link) => (
-                <SheetClose asChild key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="px-4 py-3 text-white/80 transition-colors hover:text-white hover:bg-white/10 rounded-lg font-medium"
-                  >
-                    {link.label}
-                  </Link>
-                </SheetClose>
-              ))}
+              {NAV_LINKS.map((link) => {
+                const isActive = pathname === link.href;
+                return (
+                  <SheetClose asChild key={link.href}>
+                    <Link
+                      href={link.href}
+                      className={`px-4 py-3 transition-colors rounded-lg font-medium ${
+                        isActive
+                          ? "text-primary bg-white/5"
+                          : "text-white/80 hover:text-white hover:bg-white/10"
+                      }`}
+                    >
+                      {link.label}
+                    </Link>
+                  </SheetClose>
+                );
+              })}
               <SheetClose asChild>
                 <Button
                   asChild

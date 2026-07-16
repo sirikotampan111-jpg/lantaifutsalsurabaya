@@ -12,7 +12,7 @@ export function Footer() {
           {/* Column 1: Logo & Description */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <Image src="/logo.svg" alt="H2 Futsal" width={40} height={40} />
+              <Image src="/logo.png" alt="H2 Futsal" width={40} height={40} />
               <span className="text-lg font-bold">
                 H2 <span className="gradient-text">Futsal</span>
               </span>

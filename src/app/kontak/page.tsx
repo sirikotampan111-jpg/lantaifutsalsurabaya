@@ -1,38 +1,39 @@
+import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { PageHeader } from "@/components/page-header";
+import { createMetadata } from "@/lib/metadata";
 
-const HeroSection = dynamic(
+export const metadata: Metadata = createMetadata({
+  title: "Kontak H2 Futsal Surabaya - Booking & Hubungi Kami",
+  description:
+    "Hubungi H2 Futsal Surabaya untuk booking lapangan futsal, informasi harga, dan pertanyaan lainnya. Booking mudah via WhatsApp.",
+  path: "/kontak",
+  keywords: [
+    "Kontak H2 Futsal",
+    "Booking Lapangan Futsal Surabaya",
+    "Hubungi H2 Futsal Surabaya",
+  ],
+});
+
+const ContactSection = dynamic(
   () =>
-    import("@/components/sections/hero-section").then((m) => ({
-      default: m.HeroSection,
+    import("@/components/sections/contact-section").then((m) => ({
+      default: m.ContactSection,
     })),
   {
     loading: () => (
-      <section className="min-h-screen bg-futsal-black flex items-center justify-center">
-        <div className="flex flex-col items-center gap-4">
-          <div className="h-12 w-12 rounded-full border-4 border-primary border-t-transparent animate-spin" />
-          <p className="text-white/60 text-sm">Memuat...</p>
-        </div>
-      </section>
-    ),
-  }
-);
-
-const FeaturesSection = dynamic(
-  () =>
-    import("@/components/sections/features-section").then((m) => ({
-      default: m.FeaturesSection,
-    })),
-  {
-    loading: () => (
-      <section className="py-16 md:py-24 bg-futsal-light">
+      <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4">
           <div className="h-8 w-48 mx-auto bg-muted rounded-lg animate-pulse mb-12" />
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {Array.from({ length: 4 }).map((_, i) => (
-              <div key={i} className="h-28 bg-white rounded-xl animate-pulse" />
-            ))}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="space-y-4">
+              {Array.from({ length: 4 }).map((_, i) => (
+                <div key={i} className="h-16 bg-muted rounded-xl animate-pulse" />
+              ))}
+            </div>
+            <div className="h-96 bg-muted rounded-xl animate-pulse" />
           </div>
         </div>
       </section>
@@ -75,14 +76,20 @@ const ScrollToTop = dynamic(
     }))
 );
 
-export default function HomePage() {
+export default function KontakPage() {
   return (
     <>
       <Navbar />
       <main className="flex-1">
-        <HeroSection />
-        <div className="section-divider" />
-        <FeaturesSection />
+        <PageHeader
+          title="Hubungi Kami"
+          description="Booking lapangan atau tanyakan informasi seputar H2 Futsal Surabaya"
+          breadcrumbs={[
+            { name: "Home", url: "/" },
+            { name: "Kontak", url: "/kontak" },
+          ]}
+        />
+        <ContactSection />
         <div className="section-divider" />
         <FaqSection />
       </main>
