@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useSyncExternalStore } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -19,6 +19,11 @@ import { NAV_LINKS, WA_BOOKING_LINK } from "@/lib/constants";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const mounted = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false
+  );
   const pathname = usePathname();
 
   useEffect(() => {
@@ -73,51 +78,58 @@ export function Navbar() {
         </div>
 
         {/* Mobile Navigation */}
-        <Sheet>
-          <SheetTrigger asChild>
-            <Button variant="ghost" size="icon" className="md:hidden text-white hover:bg-white/10">
-              <Menu className="h-5 w-5" />
-              <span className="sr-only">Menu</span>
-            </Button>
-          </SheetTrigger>
-          <SheetContent side="right" className="bg-futsal-black border-white/10 w-72">
-            <SheetHeader>
-              <SheetTitle className="text-white flex items-center gap-2">
-                <Image src="/logo.png" alt="H2 Futsal" width={32} height={32} />
-                H2 Futsal
-              </SheetTitle>
-            </SheetHeader>
-            <div className="flex flex-col gap-1 mt-4">
-              {NAV_LINKS.map((link) => {
-                const isActive = pathname === link.href;
-                return (
-                  <SheetClose asChild key={link.href}>
-                    <Link
-                      href={link.href}
-                      className={`px-4 py-3 transition-colors rounded-lg font-medium ${
-                        isActive
-                          ? "text-primary bg-white/5"
-                          : "text-white/80 hover:text-white hover:bg-white/10"
-                      }`}
-                    >
-                      {link.label}
+        {mounted ? (
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button variant="ghost" size="icon" className="md:hidden text-white hover:bg-white/10">
+                <Menu className="h-5 w-5" />
+                <span className="sr-only">Menu</span>
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="right" className="bg-futsal-black border-white/10 w-72">
+              <SheetHeader>
+                <SheetTitle className="text-white flex items-center gap-2">
+                  <Image src="/logo.png" alt="H2 Futsal" width={32} height={32} />
+                  H2 Futsal
+                </SheetTitle>
+              </SheetHeader>
+              <div className="flex flex-col gap-1 mt-4">
+                {NAV_LINKS.map((link) => {
+                  const isActive = pathname === link.href;
+                  return (
+                    <SheetClose asChild key={link.href}>
+                      <Link
+                        href={link.href}
+                        className={`px-4 py-3 transition-colors rounded-lg font-medium ${
+                          isActive
+                            ? "text-primary bg-white/5"
+                            : "text-white/80 hover:text-white hover:bg-white/10"
+                        }`}
+                      >
+                        {link.label}
+                      </Link>
+                    </SheetClose>
+                  );
+                })}
+                <SheetClose asChild>
+                  <Button
+                    asChild
+                    className="mt-4 bg-primary hover:bg-primary/90 text-white w-full"
+                  >
+                    <Link href={WA_BOOKING_LINK} target="_blank" rel="noopener noreferrer">
+                      Booking Sekarang
                     </Link>
-                  </SheetClose>
-                );
-              })}
-              <SheetClose asChild>
-                <Button
-                  asChild
-                  className="mt-4 bg-primary hover:bg-primary/90 text-white w-full"
-                >
-                  <Link href={WA_BOOKING_LINK} target="_blank" rel="noopener noreferrer">
-                    Booking Sekarang
-                  </Link>
-                </Button>
-              </SheetClose>
-            </div>
-          </SheetContent>
-        </Sheet>
+                  </Button>
+                </SheetClose>
+              </div>
+            </SheetContent>
+          </Sheet>
+        ) : (
+          <Button variant="ghost" size="icon" className="md:hidden text-white hover:bg-white/10">
+            <Menu className="h-5 w-5" />
+            <span className="sr-only">Menu</span>
+          </Button>
+        )}
       </nav>
     </motion.header>
   );
