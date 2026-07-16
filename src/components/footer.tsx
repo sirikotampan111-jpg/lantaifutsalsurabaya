@@ -2,13 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
 import { BUSINESS, NAV_LINKS, WA_LINK } from "@/lib/constants";
-import { Instagram, Facebook, Youtube } from "lucide-react";
 
 export function Footer() {
   return (
     <footer className="bg-futsal-black text-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
           {/* Column 1: Logo & Description */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
@@ -64,55 +63,21 @@ export function Footer() {
                   {BUSINESS.email}
                 </a>
               </li>
+              <li className="pt-2">
+                <span className="text-white/40 text-xs">Jam Operasional</span>
+                <br />
+                <span className="text-white font-medium">
+                  Setiap Hari: 08:00 - 23:00 WIB
+                </span>
+              </li>
             </ul>
-          </div>
-
-          {/* Column 4: Jam Operasional */}
-          <div>
-            <h3 className="font-semibold mb-4">Jam Operasional</h3>
-            <p className="text-sm text-white/60 mb-4">
-              Setiap Hari
-              <br />
-              <span className="text-white font-medium">08:00 - 23:00 WIB</span>
-            </p>
-            <h3 className="font-semibold mb-3">Ikuti Kami</h3>
-            <div className="flex gap-3">
-              <a
-                href="#"
-                aria-label="Instagram"
-                className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 hover:bg-primary transition-colors"
-              >
-                <Instagram className="h-4 w-4" />
-              </a>
-              <a
-                href="#"
-                aria-label="Facebook"
-                className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 hover:bg-primary transition-colors"
-              >
-                <Facebook className="h-4 w-4" />
-              </a>
-              <a
-                href="#"
-                aria-label="TikTok"
-                className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 hover:bg-primary transition-colors text-xs font-bold"
-              >
-                TT
-              </a>
-              <a
-                href="#"
-                aria-label="YouTube"
-                className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 hover:bg-primary transition-colors"
-              >
-                <Youtube className="h-4 w-4" />
-              </a>
-            </div>
           </div>
         </div>
 
         <Separator className="my-8 bg-white/10" />
 
         <p className="text-center text-sm text-white/40">
-          &copy; 2024 H2 Futsal Surabaya. All rights reserved.
+          &copy; {new Date().getFullYear()} H2 Futsal Surabaya. All rights reserved.
         </p>
       </div>
     </footer>

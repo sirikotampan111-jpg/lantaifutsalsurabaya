@@ -72,7 +72,7 @@ export function Navbar() {
           })}
           <Button asChild className="ml-3 bg-primary hover:bg-primary/90 text-white">
             <Link href={WA_BOOKING_LINK} target="_blank" rel="noopener noreferrer">
-              Booking Sekarang
+              Konsultasi Gratis
             </Link>
           </Button>
         </div>
@@ -117,7 +117,7 @@ export function Navbar() {
                     className="mt-4 bg-primary hover:bg-primary/90 text-white w-full"
                   >
                     <Link href={WA_BOOKING_LINK} target="_blank" rel="noopener noreferrer">
-                      Booking Sekarang
+                      Konsultasi Gratis
                     </Link>
                   </Button>
                 </SheetClose>
