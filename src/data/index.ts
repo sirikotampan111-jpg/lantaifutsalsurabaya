@@ -116,9 +116,9 @@ export const services: Service[] = [
 
 export const faqs: FAQ[] = [
   {
-    question: "Apa saja jenis lantai olahraga yang disediakan H2 Surabaya?",
+    question: "Apa saja jenis lantai olahraga yang disediakan H2 Sport Surabaya?",
     answer:
-      "H2 Surabaya menyediakan berbagai jenis lantai olahraga meliputi rumput sintetis futsal, lantai minisoccer, lantai padel, lantai basket, lantai badminton, dan berbagai lantai olahraga lainnya sesuai kebutuhan proyek Anda.",
+      "H2 Sport Surabaya menyediakan berbagai jenis lantai olahraga meliputi rumput sintetis futsal, lantai minisoccer, lantai padel, lantai basket, lantai badminton, dan berbagai lantai olahraga lainnya sesuai kebutuhan proyek Anda.",
   },
   {
     question: "Berapa harga lantai futsal per meter persegi?",
@@ -138,7 +138,7 @@ export const faqs: FAQ[] = [
   {
     question: "Apakah tersedia garansi untuk pemasangan?",
     answer:
-      "Ya, setiap proyek pemasangan lantai olahraga dari H2 Surabaya mendapat garansi. Detail garansi akan dijelaskan saat proses konsultasi dan penawaran harga.",
+      "Ya, setiap proyek pemasangan lantai olahraga dari H2 Sport Surabaya mendapat garansi. Detail garansi akan dijelaskan saat proses konsultasi dan penawaran harga.",
   },
   {
     question: "Apakah bisa hanya membeli material tanpa jasa pemasangan?",
@@ -146,7 +146,7 @@ export const faqs: FAQ[] = [
       "Tentu. Kami juga menyediakan layanan supply material saja untuk proyek mandiri. Anda bisa membeli rumput sintetis, interlock, atau material lainnya tanpa jasa pemasangan.",
   },
   {
-    question: "Bagaimana cara memesan lantai olahraga dari H2 Surabaya?",
+    question: "Bagaimana cara memesan lantai olahraga dari H2 Sport Surabaya?",
     answer:
       "Cara pemesanan sangat mudah: hubungi kami via WhatsApp di 0822-4426-9222, konsultasikan kebutuhan Anda, kami akan melakukan survei lokasi jika diperlukan, kemudian memberikan penawaran harga.",
   },
@@ -161,9 +161,9 @@ export const faqs: FAQ[] = [
       "Semua material yang kami sediakan telah dipilih untuk ketahanannya terhadap cuaca tropis Indonesia. Material kami tahan terhadap hujan, panas matahari, dan kelembaban tinggi.",
   },
   {
-    question: "Di mana lokasi H2 Surabaya?",
+    question: "Di mana lokasi H2 Sport Surabaya?",
     answer:
-      "H2 Surabaya berlokasi di Jl. Cumpat Gg. 5 No. 2, Kelurahan Kedung Cowek, Kecamatan Bulak, Kenjeran, Surabaya Timur, Jawa Timur 60125.",
+      "H2 Sport Surabaya berlokasi di Jl. Cumpat Gg. 5 No. 2, Kelurahan Kedung Cowek, Kecamatan Bulak, Kenjeran, Surabaya Timur, Jawa Timur 60125.",
   },
   {
     question: "Apakah ada diskon untuk pemesanan dalam jumlah besar?",
@@ -190,7 +190,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "lantai-futsal-1",
     src: "/images/gallery/galeri-1.jpg",
-    alt: "Pemasangan lantai futsal oleh tim H2 Surabaya",
+    alt: "Pemasangan lantai futsal oleh tim H2 Sport Surabaya",
     category: "lantai-futsal",
     width: 1200,
     height: 1600,
@@ -214,7 +214,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "minisoccer-1",
     src: "/images/gallery/galeri-4.jpg",
-    alt: "Lapangan minisoccer dengan lantai olahraga dari H2 Surabaya",
+    alt: "Lapangan minisoccer dengan lantai olahraga dari H2 Sport Surabaya",
     category: "minisoccer",
     width: 1280,
     height: 720,
@@ -262,7 +262,7 @@ export const galleryItems: GalleryItem[] = [
   {
     id: "fasilitas-1",
     src: "/images/gallery/galeri-10.jpg",
-    alt: "Fasilitas gudang dan material lantai olahraga H2 Surabaya",
+    alt: "Fasilitas gudang dan material lantai olahraga H2 Sport Surabaya",
     category: "fasilitas",
     width: 1200,
     height: 1600,

@@ -186,10 +186,10 @@ export function generateJsonLd() {
     mainEntity: [
       {
         "@type": "Question",
-        name: "Apa saja jenis lantai olahraga yang disediakan H2 Surabaya?",
+        name: "Apa saja jenis lantai olahraga yang disediakan H2 Sport Surabaya?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "H2 Surabaya menyediakan berbagai jenis lantai olahraga meliputi rumput sintetis futsal, lantai minisoccer, lantai padel, lantai basket, lantai badminton, dan berbagai lantai olahraga lainnya sesuai kebutuhan proyek Anda.",
+          text: "H2 Sport Surabaya menyediakan berbagai jenis lantai olahraga meliputi rumput sintetis futsal, lantai minisoccer, lantai padel, lantai basket, lantai badminton, dan berbagai lantai olahraga lainnya sesuai kebutuhan proyek Anda.",
         },
       },
       {
@@ -221,7 +221,7 @@ export function generateJsonLd() {
         name: "Apakah tersedia garansi untuk pemasangan?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Ya, setiap proyek pemasangan lantai olahraga dari H2 Surabaya mendapat garansi. Detail garansi akan dijelaskan saat proses konsultasi dan penawaran harga.",
+          text: "Ya, setiap proyek pemasangan lantai olahraga dari H2 Sport Surabaya mendapat garansi. Detail garansi akan dijelaskan saat proses konsultasi dan penawaran harga.",
         },
       },
       {
@@ -234,7 +234,7 @@ export function generateJsonLd() {
       },
       {
         "@type": "Question",
-        name: "Bagaimana cara memesan lantai olahraga dari H2 Surabaya?",
+        name: "Bagaimana cara memesan lantai olahraga dari H2 Sport Surabaya?",
         acceptedAnswer: {
           "@type": "Answer",
           text: "Cara pemesanan sangat mudah: hubungi kami via WhatsApp di 0822-4426-9222, konsultasikan kebutuhan Anda, kami akan melakukan survei lokasi jika diperlukan, kemudian memberikan penawaran harga.",
@@ -258,10 +258,10 @@ export function generateJsonLd() {
       },
       {
         "@type": "Question",
-        name: "Di mana lokasi H2 Surabaya?",
+        name: "Di mana lokasi H2 Sport Surabaya?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "H2 Surabaya berlokasi di Jl. Cumpat Gg. 5 No. 2, Kelurahan Kedung Cowek, Kecamatan Bulak, Kenjeran, Surabaya Timur, Jawa Timur 60125.",
+          text: "H2 Sport Surabaya berlokasi di Jl. Cumpat Gg. 5 No. 2, Kelurahan Kedung Cowek, Kecamatan Bulak, Kenjeran, Surabaya Timur, Jawa Timur 60125.",
         },
       },
     ],
