@@ -60,7 +60,7 @@ export function FeaturesSection() {
       className="scroll-mt-20 bg-futsal-light field-pattern py-16 md:py-24"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <SectionTitle title="Mengapa Memilih H2 Futsal Surabaya?" />
+        <SectionTitle title="Mengapa Memilih H2 Sport Surabaya?" />
 
         <motion.div
           ref={ref}

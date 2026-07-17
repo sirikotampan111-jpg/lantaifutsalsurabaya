@@ -48,9 +48,9 @@ export function Navbar() {
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/logo.png" alt="H2 Futsal" width={40} height={40} />
+          <Image src="/logo.png" alt="H2 Sport" width={40} height={40} />
           <span className="text-lg font-bold text-white">
-            H2 <span className="gradient-text">Futsal</span>
+            H2 <span className="gradient-text">Sport</span>
           </span>
         </Link>
 
@@ -89,8 +89,8 @@ export function Navbar() {
             <SheetContent side="right" className="bg-futsal-black border-white/10 w-72">
               <SheetHeader>
                 <SheetTitle className="text-white flex items-center gap-2">
-                  <Image src="/logo.png" alt="H2 Futsal" width={32} height={32} />
-                  H2 Futsal
+                  <Image src="/logo.png" alt="H2 Sport" width={32} height={32} />
+                  H2 Sport
                 </SheetTitle>
               </SheetHeader>
               <div className="flex flex-col gap-1 mt-4">

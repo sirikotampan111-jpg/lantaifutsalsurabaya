@@ -33,7 +33,7 @@ export function AboutSection() {
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <p className="text-foreground/80 leading-relaxed text-base md:text-lg">
-              H2 Futsal Surabaya adalah supplier lantai olahraga terpercaya yang
+              H2 Sport Surabaya adalah supplier lantai olahraga terpercaya yang
               berlokasi strategis di kawasan Kenjeran, Surabaya Timur. Kami
               menyediakan dan memasang berbagai jenis lantai olahraga berkualitas
               tinggi untuk futsal, minisoccer, padel, basket, badminton, dan

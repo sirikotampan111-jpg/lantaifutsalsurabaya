@@ -42,7 +42,7 @@
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
 
-  /* H2 Futsal Custom Colors */
+  /* H2 Sport Custom Colors */
   --color-futsal-green: #16a34a;
   --color-futsal-green-dark: #15803d;
   --color-futsal-green-light: #22c55e;

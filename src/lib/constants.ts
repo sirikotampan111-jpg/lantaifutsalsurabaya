@@ -3,7 +3,7 @@ import type { BusinessInfo, NavLink } from "@/types";
 export const SITE_URL = "https://lantaifutsalsurabaya.asia";
 
 export const BUSINESS: BusinessInfo = {
-  name: "H2 Futsal Surabaya",
+  name: "H2 Sport Surabaya",
   category: "Supplier Lantai Olahraga",
   address:
     "Jl. Cumpat Gg. 5 No. 2, Kel. Kedung Cowek, Kec. Bulak, Kenjeran, Surabaya, Jawa Timur 60125",
@@ -27,4 +27,4 @@ export const NAV_LINKS: NavLink[] = [
 ];
 
 export const WA_LINK = `https://wa.me/${BUSINESS.whatsapp}`;
-export const WA_BOOKING_LINK = `${WA_LINK}?text=Halo%20H2,%20saya%20ingin%20konsultasi%2Fpemesanan%20lantai%20olahraga.`;
+export const WA_BOOKING_LINK = `${WA_LINK}?text=Halo%20H2%20Sport,%20saya%20ingin%20konsultasi%2Fpemesanan%20lantai%20olahraga.`;

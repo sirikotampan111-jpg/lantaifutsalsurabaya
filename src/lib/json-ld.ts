@@ -9,7 +9,7 @@ export function generateJsonLd() {
     "@id": `${SITE_URL}/#localbusiness`,
     name: BUSINESS.name,
     description:
-      "H2 Futsal Surabaya adalah supplier lantai olahraga terpercaya di Surabaya. Menyediakan dan memasang rumput sintetis futsal, lantai minisoccer, lantai padel, lantai basket, dan berbagai lantai olahraga lainnya dengan harga kompetitif.",
+      "H2 Sport Surabaya adalah supplier lantai olahraga terpercaya di Surabaya. Menyediakan dan memasang rumput sintetis futsal, lantai minisoccer, lantai padel, lantai basket, dan berbagai lantai olahraga lainnya dengan harga kompetitif.",
     url: SITE_URL,
     telephone: BUSINESS.phone,
     email: BUSINESS.email,
@@ -115,9 +115,9 @@ export function generateJsonLd() {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "@id": `${SITE_URL}/#webpage`,
-    name: "H2 Futsal Surabaya - Supplier Lantai Olahraga Terpercaya",
+    name: "H2 Sport Surabaya - Supplier Lantai Olahraga Terpercaya",
     description:
-      "Website resmi H2 Futsal Surabaya. Supplier lantai olahraga terpercaya di Surabaya untuk futsal, minisoccer, padel, basket, dan lainnya.",
+      "Website resmi H2 Sport Surabaya. Supplier lantai olahraga terpercaya di Surabaya untuk futsal, minisoccer, padel, basket, dan lainnya.",
     url: SITE_URL,
     isPartOf: { "@id": `${SITE_URL}/#website` },
     about: { "@id": `${SITE_URL}/#localbusiness` },
@@ -128,9 +128,9 @@ export function generateJsonLd() {
     "@context": "https://schema.org",
     "@type": "ContactPage",
     "@id": `${SITE_URL}/#contactpage`,
-    name: "Kontak H2 Futsal Surabaya",
+    name: "Kontak H2 Sport Surabaya",
     description:
-      "Hubungi H2 Futsal Surabaya untuk konsultasi, pemesanan lantai olahraga, dan pertanyaan lainnya.",
+      "Hubungi H2 Sport Surabaya untuk konsultasi, pemesanan lantai olahraga, dan pertanyaan lainnya.",
     url: `${SITE_URL}/kontak`,
     isPartOf: { "@id": `${SITE_URL}/#website` },
     mainEntity: {

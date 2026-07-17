@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SITE_URL, BUSINESS } from "./constants";
 
 const defaultKeywords = [
-  "H2 Futsal Surabaya",
+  "H2 Sport Surabaya",
   "Supplier Lantai Futsal Surabaya",
   "Jual Lantai Futsal Surabaya",
   "Lantai Futsal Murah Surabaya",
@@ -26,10 +26,10 @@ export function createMetadata(overrides?: {
   keywords?: string[];
   image?: string;
 }): Metadata {
-  const title = overrides?.title ?? "H2 Futsal Surabaya - Supplier Lantai Olahraga Terpercaya";
+  const title = overrides?.title ?? "H2 Sport Surabaya - Supplier Lantai Olahraga Terpercaya";
   const description =
     overrides?.description ??
-    "H2 Futsal Surabaya adalah supplier lantai olahraga terpercaya di Surabaya. Menyediakan dan memasang lantai futsal, minisoccer, padel, basket, dan lantai olahraga lainnya. Konsultasi gratis via WhatsApp.";
+    "H2 Sport Surabaya adalah supplier lantai olahraga terpercaya di Surabaya. Menyediakan dan memasang lantai futsal, minisoccer, padel, basket, dan lantai olahraga lainnya. Konsultasi gratis via WhatsApp.";
   const path = overrides?.path ?? "";
   const url = `${SITE_URL}${path}`;
   const keywords = overrides?.keywords

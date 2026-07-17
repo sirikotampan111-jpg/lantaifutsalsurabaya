@@ -6,14 +6,14 @@ import { PageHeader } from "@/components/page-header";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = createMetadata({
-  title: "Kontak H2 Futsal Surabaya - Konsultasi & Pemesanan Lantai Olahraga Surabaya",
+  title: "Kontak H2 Sport Surabaya - Konsultasi & Pemesanan Lantai Olahraga Surabaya",
   description:
-    "Hubungi H2 Futsal Surabaya untuk konsultasi, pemesanan lantai olahraga, informasi harga, dan pertanyaan lainnya. Konsultasi gratis via WhatsApp.",
+    "Hubungi H2 Sport Surabaya untuk konsultasi, pemesanan lantai olahraga, informasi harga, dan pertanyaan lainnya. Konsultasi gratis via WhatsApp.",
   path: "/kontak",
   keywords: [
-    "Kontak H2 Futsal",
+    "Kontak H2 Sport",
     "Pemesanan Lantai Futsal Surabaya",
-    "Hubungi H2 Futsal Surabaya",
+    "Hubungi H2 Sport Surabaya",
   ],
 });
 

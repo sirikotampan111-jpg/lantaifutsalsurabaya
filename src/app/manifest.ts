@@ -4,7 +4,7 @@ import { SITE_URL, BUSINESS } from "@/lib/constants";
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: BUSINESS.name,
-    short_name: "H2 Futsal",
+    short_name: "H2 Sport",
     description: `Supplier Lantai Olahraga di Surabaya`,
     start_url: "/",
     display: "standalone",

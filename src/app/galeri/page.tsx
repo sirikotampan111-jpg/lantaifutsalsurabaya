@@ -6,12 +6,12 @@ import { PageHeader } from "@/components/page-header";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = createMetadata({
-  title: "Galeri H2 Futsal Surabaya - Portfolio Lantai Olahraga Surabaya",
+  title: "Galeri H2 Sport Surabaya - Portfolio Lantai Olahraga Surabaya",
   description:
-    "Galeri foto H2 Futsal Surabaya. Lihat hasil pemasangan lantai futsal, minisoccer, padel, dan dokumentasi proyek lantai olahraga kami.",
+    "Galeri foto H2 Sport Surabaya. Lihat hasil pemasangan lantai futsal, minisoccer, padel, dan dokumentasi proyek lantai olahraga kami.",
   path: "/galeri",
   keywords: [
-    "Galeri H2 Futsal",
+    "Galeri H2 Sport",
     "Portfolio Lantai Futsal Surabaya",
     "Galeri Lantai Olahraga Kenjeran",
   ],

@@ -35,7 +35,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight tracking-tight"
         >
-          H2 FUTSAL{" "}
+          H2 SPORT{" "}
           <span className="gradient-text">SURABAYA</span>
         </motion.h1>
 

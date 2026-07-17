@@ -28,7 +28,7 @@ export function GallerySection() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionTitle
           title="Galeri"
-          subtitle="Lihat fasilitas dan suasana di H2 Futsal Surabaya"
+          subtitle="Lihat fasilitas dan suasana di H2 Sport Surabaya"
         />
 
         {/* Category Filter */}

@@ -6,12 +6,12 @@ import { PageHeader } from "@/components/page-header";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = createMetadata({
-  title: "Layanan H2 Futsal Surabaya - Jual & Pasang Lantai Olahraga Surabaya",
+  title: "Layanan H2 Sport Surabaya - Jual & Pasang Lantai Olahraga Surabaya",
   description:
-    "Layanan lengkap H2 Futsal Surabaya: jual dan pasang lantai futsal, lantai minisoccer, lantai padel, lantai basket, renovasi lapangan, konsultasi & desain, dan supply material.",
+    "Layanan lengkap H2 Sport Surabaya: jual dan pasang lantai futsal, lantai minisoccer, lantai padel, lantai basket, renovasi lapangan, konsultasi & desain, dan supply material.",
   path: "/layanan",
   keywords: [
-    "Layanan H2 Futsal",
+    "Layanan H2 Sport",
     "Jual Lantai Futsal Surabaya",
     "Pemasangan Lantai Futsal Surabaya",
     "Lantai Padel Surabaya",
