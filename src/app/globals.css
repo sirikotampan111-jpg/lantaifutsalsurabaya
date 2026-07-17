@@ -167,6 +167,26 @@
   animation: pulse-green 2s ease-in-out infinite;
 }
 
+/* WhatsApp CTA Button Glow Animation */
+@keyframes wa-glow {
+  0%, 100% {
+    box-shadow:
+      0 0 8px rgba(37, 211, 102, 0.5),
+      0 0 20px rgba(37, 211, 102, 0.3),
+      0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    box-shadow:
+      0 0 14px rgba(37, 211, 102, 0.7),
+      0 0 35px rgba(37, 211, 102, 0.4),
+      0 4px 20px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.animate-wa-pulse {
+  animation: wa-glow 2.5s ease-in-out infinite;
+}
+
 /* Field Pattern Background */
 .field-pattern {
   background-image:
