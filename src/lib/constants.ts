@@ -10,7 +10,7 @@ export const BUSINESS: BusinessInfo = {
   whatsapp: "082244269222",
   email: "moch.husnin67@gmail.com",
   website: SITE_URL,
-  phone: "082244269222",
+  phone: "+62 822-4426-9222",
   mapsEmbedUrl:
     "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7916.30635836143!2d112.7876272!3d-7.2233629!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f9b2fce662a7%3A0x20d7d66ccf203942!2sSupplier%20Lantai%20Lapangan%20Futsal%2CMinisoccer%26Lapangan%20Padel%20Surabaya!5e0!3m2!1sid!2sid!4v1784202904123!5m2!1sid!2sid",
   mapsUrl:
@@ -26,5 +26,6 @@ export const NAV_LINKS: NavLink[] = [
   { href: "/kontak", label: "Kontak" },
 ];
 
+export const DISPLAY_PHONE = BUSINESS.phone;
 export const WA_LINK = `https://wa.me/${BUSINESS.whatsapp}`;
 export const WA_BOOKING_LINK = `${WA_LINK}?text=Halo%20H2%20Sport,%20saya%20ingin%20konsultasi%2Fpemesanan%20lantai%20olahraga.`;

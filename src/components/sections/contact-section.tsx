@@ -19,7 +19,7 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-import { BUSINESS, WA_LINK } from "@/lib/constants";
+import { BUSINESS, WA_LINK, DISPLAY_PHONE } from "@/lib/constants";
 import { SectionTitle } from "@/components/section-title";
 
 const contactSchema = z.object({
@@ -114,7 +114,7 @@ export function ContactSection() {
                   rel="noopener noreferrer"
                   className="text-sm text-primary hover:underline mt-1 block"
                 >
-                  {BUSINESS.whatsapp}
+                  {DISPLAY_PHONE}
                 </a>
               </div>
             </div>

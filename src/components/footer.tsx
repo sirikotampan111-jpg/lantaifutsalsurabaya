@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
-import { BUSINESS, NAV_LINKS, WA_LINK } from "@/lib/constants";
+import { BUSINESS, NAV_LINKS, WA_LINK, DISPLAY_PHONE } from "@/lib/constants";
 
 export function Footer() {
   return (
@@ -52,7 +52,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
                 >
-                  WhatsApp: {BUSINESS.whatsapp}
+                  WhatsApp: {DISPLAY_PHONE}
                 </a>
               </li>
               <li>

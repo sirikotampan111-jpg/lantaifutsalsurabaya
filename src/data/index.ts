@@ -123,7 +123,7 @@ export const faqs: FAQ[] = [
   {
     question: "Berapa harga lantai futsal per meter persegi?",
     answer:
-      "Harga lantai futsal bervariasi tergantung jenis material, ketebalan, dan spesifikasi yang dipilih. Untuk mendapatkan penawaran harga terbaik, silakan hubungi kami melalui WhatsApp di 0822-4426-9222 untuk konsultasi gratis.",
+      "Harga lantai futsal bervariasi tergantung jenis material, ketebalan, dan spesifikasi yang dipilih. Untuk mendapatkan penawaran harga terbaik, silakan hubungi kami melalui WhatsApp di +62 822-4426-9222 untuk konsultasi gratis.",
   },
   {
     question: "Apakah H2 menerima pemasangan di luar Surabaya?",
@@ -148,7 +148,7 @@ export const faqs: FAQ[] = [
   {
     question: "Bagaimana cara memesan lantai olahraga dari H2 Sport Surabaya?",
     answer:
-      "Cara pemesanan sangat mudah: hubungi kami via WhatsApp di 0822-4426-9222, konsultasikan kebutuhan Anda, kami akan melakukan survei lokasi jika diperlukan, kemudian memberikan penawaran harga.",
+      "Cara pemesanan sangat mudah: hubungi kami via WhatsApp di +62 822-4426-9222, konsultasikan kebutuhan Anda, kami akan melakukan survei lokasi jika diperlukan, kemudian memberikan penawaran harga.",
   },
   {
     question: "Apakah H2 menyediakan jasa renovasi lapangan lama?",
