@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
+import { PwaRegister } from "@/components/pwa-register";
 import { createMetadata } from "@/lib/metadata";
 import { generateJsonLd } from "@/lib/json-ld";
 import "./globals.css";
@@ -37,11 +38,15 @@ export default function RootLayout({
           />
         ))}
         <meta name="theme-color" content="#16a34a" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="apple-mobile-web-app-title" content="H2 Sport" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased bg-background text-foreground`}
       >
         {children}
+        <PwaRegister />
         <Toaster position="top-center" richColors />
       </body>
     </html>
